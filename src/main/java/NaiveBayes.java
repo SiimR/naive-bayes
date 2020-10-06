@@ -2,6 +2,14 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 
+/*
+* This algorithm is based on the Naive Bayes Classifier.
+*
+* KDnuggets.com has a article about implementing the Naive Bayes Classifier, which provided help for the implementation.
+* Source: https://www.kdnuggets.com/2020/07/spam-filter-python-naive-bayes-scratch.html
+*
+*/
+
 public class NaiveBayes {
     private List<String> vocabulary;
     private HashMap<String, Integer> vocabularyScam;
